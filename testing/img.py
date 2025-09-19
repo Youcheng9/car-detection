@@ -22,6 +22,7 @@ while cap.isOpened():
     ok, frame = cap.read()
     if not ok:
         print('Finished processing videro')
+        print("hang hang thinks i am stupid.")
         break 
     
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
