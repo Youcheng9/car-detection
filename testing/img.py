@@ -21,7 +21,7 @@ if not cap.isOpened():
 while cap.isOpened():
     ok, frame = cap.read()
     if not ok:
-        print('Finished processing video')
+        print('Finished processing videro')
         break 
     
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
