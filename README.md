@@ -1,1 +1,0 @@
-#OpenCY by zing zing
